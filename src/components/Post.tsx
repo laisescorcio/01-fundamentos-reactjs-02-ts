@@ -14,7 +14,7 @@ interface Author {
 }
 
 interface Content {
-    type: 'paragraph' | 'link'; // Typescript: é uma string porém são dois tipos de string, ou uma ou outra
+    type: 'paragraph' | 'link'; // Typescript: é uma string porém são dois tipos de string, ou uma ou outra, assim não permitirá utilizar outra opção de string
     content: string;
 }
 
