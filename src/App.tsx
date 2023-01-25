@@ -26,17 +26,17 @@ const posts = [
   {
     id: 2,
     author: {
-      avatarUrl: 'https://avatars.githubusercontent.com/u/6579736?v=4',
-      name: 'Roberto Guerra',
-      role: 'Mobile Developer'
+      avatarUrl: 'https://avatars.githubusercontent.com/u/61030205?v=4',
+      name: 'Laís Escorcio',
+      role: 'Tech Lead'
     },
     content: [
       { type: 'paragraph', content: 'Fala galeraa 👋' },
-      { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
-      { type: 'link', content: 'jane.design/doctorcare' }
+      { type: 'paragraph', content: 'Acabei criar um projeto Front End de feed de posts e comentários! 🚀  Deem uma olhada em como ficou!' },
+      { type: 'link', content: 'https://github.com/laisescorcio/01-fundamentos-reactjs-02-ts' }
     ],
     publishedAt: new Date('2023-01-21 20:00:00')
-  }
+  },
 ]
 
 export function App() {
