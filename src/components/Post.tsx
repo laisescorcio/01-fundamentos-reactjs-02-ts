@@ -18,7 +18,8 @@ interface Content {
     content: string;
 }
 
-interface PostProps {
+export interface PostProps {
+    id?: number;
     author: Author;
     publishedAt: Date;
     content: Content[]; // Typescript: definimos o Content anteriormente e ele é um array

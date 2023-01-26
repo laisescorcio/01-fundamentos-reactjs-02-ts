@@ -2,11 +2,12 @@
 import { useState } from 'react'
 import { Header } from './components/Header'
 import { Sidebar } from './components/Sidebar'
-import { Post } from './components/Post'
+import { Post, PostProps } from './components/Post'
 
 import './global.css';
 
 import styles from './App.module.css'
+
 
 const posts = [
   {
@@ -37,7 +38,7 @@ const posts = [
     ],
     publishedAt: new Date('2023-01-21 20:00:00')
   },
-]
+] as PostProps[] // Typescript: export da tipagem do componente Post
 
 export function App() {
 
